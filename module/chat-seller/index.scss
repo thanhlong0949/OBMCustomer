@@ -1,0 +1,12 @@
+.chat-seller {
+  width: 100%;
+  .chat-seller-main {
+    display: flex;
+    height: calc(100% - 55px);
+    margin: 55px 10% 0;
+    box-shadow: 2px 2px 10px #ccc;
+    .chat-seller-body {
+      width: 80%;
+    }
+  }
+}

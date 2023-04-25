@@ -1,0 +1,57 @@
+.self-book-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  .self-book {
+    margin-top: 100px;
+    width: 65%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px 40px;
+
+    .item-formik {
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+
+      .title-text {
+        width: 30%;
+      }
+      .action-item {
+        width: 70%;
+        position: relative;
+        display: flex;
+
+        .icon-add {
+          position: absolute;
+          right: 10px;
+          top: 7px;
+        }
+
+        .button-submit {
+          position: absolute;
+          right: 0;
+        }
+
+        .row-name-book {
+          margin-top: 8px;
+          display: flex;
+          color: gray;
+
+          .item {
+            background-color: white;
+            padding: 2px 3px;
+            margin-right: 3px;
+            border-radius: 3px;
+            font-size: 16px;
+          }
+        }
+
+        .ant-select {
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

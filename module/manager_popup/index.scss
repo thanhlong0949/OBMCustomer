@@ -1,0 +1,76 @@
+.detail-book-container {
+  .detail-book {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    .info-book {
+      width: 40%;
+      padding-right: 50px;
+
+      .box-carousel {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+        background: #364d79;
+        border-radius: 10px;
+        width: 350px;
+      }
+
+      .text-info-book {
+        margin-top: 15px;
+      }
+    }
+    .detail-info-user {
+      width: 60%;
+      display: flex;
+
+      .avatar-user {
+        margin-right: 30px;
+
+        .ant-image-img {
+          box-shadow: 0px 4px 5px 3px rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      .info_detail {
+        .row1 {
+          display: flex;
+
+          .name {
+            font-weight: 700;
+            font-size: 15px;
+            margin-right: 30px;
+          }
+
+          .ant-btn {
+            height: 50px;
+            width: 120px;
+            font-size: 15px;
+            border-color: #fdc229ed;
+            color: #fdc229ed;
+            border-width: 2px;
+          }
+        }
+
+        .row2 {
+          margin-top: 10px;
+        }
+
+        .row3 {
+        }
+
+        .row4 {
+          margin: 15px 0;
+          .ant-btn {
+            background-color: #00f436;
+            color: white;
+          }
+        }
+
+        .row5 {
+          .ant-btn {
+            background-color: rgba(217, 217, 217, 0.63);
+          }
+        }
+      }
+    }
+  }
+}

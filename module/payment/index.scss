@@ -1,0 +1,191 @@
+.payment-container {
+  width: 100%;
+  .main {
+    margin-top: 80px;
+    width: 100%;
+    padding: 0 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .item-book,
+    .location-given,
+    .cost-of-payment,
+    .delivery-method,
+    .payment-method,
+    .payment-accept {
+      background-color: white;
+      border-radius: 8px;
+      width: 100%;
+      padding: 10px 15px;
+      margin-bottom: 10px;
+    }
+
+    .location-given {
+      padding: 15px 10px;
+      .title {
+        display: flex;
+        justify-content: space-between;
+
+        .location-text {
+          span {
+            margin-left: 3px;
+            font-weight: 500;
+          }
+        }
+        .change {
+          color: #1da1f2;
+        }
+      }
+
+      .detail {
+        margin-top: 7px;
+
+        p {
+          color: #9b9b9b;
+        }
+      }
+    }
+
+    .item-book {
+      padding: 15px 10px;
+
+      .items {
+        //border: 1px solid rgba(204, 204, 204, 0.5);
+        .items-user {
+          display: flex;
+          margin: 0 0 8px 0;
+          width: 100%;
+          justify-content: space-between;
+          .chat {
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 2px 7px;
+            color: #52c41a;
+
+            span {
+              margin-left: 4px;
+            }
+          }
+          .name-user {
+            margin-left: 6px;
+            font-size: smaller;
+          }
+        }
+        .items-book {
+          display: flex;
+          width: 100%;
+          .infor-book {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .infor-left {
+              padding: 0 8px;
+              width: 70%;
+              .name {
+                font-weight: 500;
+                font-size: medium;
+              }
+              .des {
+                font-size: smaller;
+                font-weight: 300;
+              }
+              .price {
+                color: orangered;
+                font-weight: 300;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .cost-of-payment {
+      .title {
+        font-size: 17px;
+        font-weight: 500;
+
+        span {
+          margin-left: 5px;
+        }
+      }
+      .detail {
+        margin-top: 3px;
+        //border: 1px solid;
+        border-radius: 5px;
+        padding: 5px;
+
+        h4 {
+          color: orange;
+          margin-bottom: 0px !important;
+        }
+      }
+      .notifi {
+        background-color: #adf3b9;
+        margin-top: 12px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        padding: 8px 4px;
+
+        span {
+          font-size: 15px;
+        }
+      }
+    }
+
+    .delivery-method {
+      .title {
+        font-size: 17px;
+        font-weight: 500;
+
+        span {
+          margin-left: 5px;
+        }
+      }
+      .detail {
+        padding: 10px;
+        font-size: 16px;
+      }
+    }
+
+    .payment-method {
+      .title {
+        b {
+          font-size: 17px;
+          margin-left: 5px;
+        }
+      }
+    }
+
+    .payment-accept {
+      margin-bottom: 100px;
+      .row1 {
+        font-size: 16px;
+      }
+      .row2 {
+        display: flex;
+        justify-content: space-between;
+      }
+      .row3 {
+        display: flex;
+        justify-content: space-between;
+        .title {
+        }
+      }
+      .row4 {
+        margin-top: 20px;
+
+        .title {
+          display: flex;
+          align-items: center;
+          margin-bottom: 5px;
+        }
+      }
+      .button {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+      }
+    }
+  }
+}

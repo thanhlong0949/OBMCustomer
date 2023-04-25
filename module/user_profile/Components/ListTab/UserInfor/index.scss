@@ -1,0 +1,35 @@
+.user-profile-tab-container {
+  // padding-right: 5%;
+
+  .formik-user-profile-container {
+    margin-top: 30px;
+
+    .user-profile-container {
+      .form-item {
+        display: flex;
+        margin-bottom: 18px;
+        .title {
+          width: 20%;
+        }
+        .item-detail {
+          width: 80%;
+        }
+      }
+      .group-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+
+        .btn-cancel {
+          margin-right: 5px;
+        }
+        .btn-fix {
+          margin-right: 5px;
+        }
+        .btn-save {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

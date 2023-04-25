@@ -1,0 +1,25 @@
+.user_profile_container {
+  width: 100%;
+  .user_profile_main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+
+    .side-bar-profile {
+      width: 22%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .main_content {
+      width: 77%;
+      background-color: white;
+      padding: 20px;
+      display: flex;
+
+      .tab {
+        width: 100%;
+      }
+    }
+  }
+}

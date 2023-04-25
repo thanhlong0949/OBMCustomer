@@ -1,0 +1,93 @@
+.navbar {
+  width: 100%;
+  //background-color: rgba(51, 191, 255, 0.3);
+  background-color: #1890ff;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+
+  .logo {
+    width: 22%;
+  }
+  .search-navbar {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    .input-search {
+      width: 50%;
+      //border-radius: 20px;
+      color: #c3cad9;
+    }
+
+    .button-search {
+      margin-left: 8px;
+
+      .ant-btn {
+        background-color: white;
+      }
+    }
+
+    .button-self-book {
+      margin-left: 8px;
+
+      .ant-btn {
+        background-color: #f6e104;
+      }
+    }
+  }
+
+  .action-navbar {
+    //width: 42.5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .contact-navbar {
+      display: flex;
+      align-items: center;
+      margin-right: 25px;
+      margin-left: 8px;
+
+      .text-contact {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        color: #505255;
+        margin-right: 10px;
+        color: white;
+      }
+
+      .text-contact:hover {
+        cursor: pointer;
+      }
+    }
+
+    .author-navbar {
+      display: flex;
+
+      .border-icon-user {
+        border: 2px solid white;
+        border-radius: 12px;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+      }
+      .vertical {
+        margin: 0 5px;
+      }
+
+      .text-hover:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .ant-space-item {
+        color: #fff;
+      }
+    }
+  }
+}

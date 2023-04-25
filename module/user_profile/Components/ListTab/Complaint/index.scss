@@ -1,0 +1,47 @@
+.complaint-container {
+  .main {
+    display: flex;
+    .contact {
+      width: 43%;
+      padding: 10px 2%;
+      margin: 0 2%;
+      background-color: #f0f2f5;
+      border-radius: 12px;
+
+      .formik-contact-tab-container {
+        .contact-tab-container {
+          .form-item {
+            .item-detail {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
+    }
+    .address {
+      width: 57%;
+      padding: 10px 2%;
+      margin: 0 2%;
+      background-color: #f0f2f5;
+      border-radius: 12px;
+
+      .formik-address-tab-container {
+        margin-top: 15px;
+        width: 100%;
+        .address-tab-container {
+          .form-item {
+            display: flex;
+            margin-bottom: 20px;
+
+            .title {
+              width: 30%;
+            }
+            .item-detail {
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

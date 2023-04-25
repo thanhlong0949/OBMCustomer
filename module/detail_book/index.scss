@@ -1,0 +1,198 @@
+.detail-book-container-new {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .self-book {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    width: 75%;
+    height: 530px;
+    //background-color: white;
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+
+      .image-book {
+        width: 35%;
+
+        .icon {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          height: 50px;
+
+          .group-icon {
+            display: flex;
+          }
+        }
+        .image {
+          margin-top: 20px;
+          height: 460px;
+          overflow-y: scroll;
+          background-color: #f3f3f3;
+          border-radius: 10px;
+          padding: 15px;
+
+          .horizontalLine {
+            height: 1px;
+            background-color: black;
+            margin-top: 10px;
+          }
+
+          .group-image-preview {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 8px;
+            gap: 8px;
+            flex-wrap: wrap;
+
+            .item-book {
+              margin-right: 5px;
+              border: 1px solid #ccc;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .detail-book {
+        width: 60%;
+
+        .price {
+          font-size: 20px;
+          color: #008bcf;
+          font-weight: 500;
+        }
+
+        .recommend-text {
+          padding: 5px;
+          margin: 12px 0;
+          color: #26a541;
+          background-color: #e8fff3;
+          width: 250px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 5px;
+
+          p {
+            margin-bottom: 0;
+            padding-bottom: 0;
+          }
+        }
+
+        .button-sale {
+          margin-top: 5px;
+          .ant-btn {
+            height: 54px;
+            width: 192px;
+            border-radius: 8px;
+            color: #017dbd;
+            color: white;
+          }
+        }
+
+        .group-text {
+          margin-top: 35px;
+
+          .row-text {
+            display: flex;
+            justify-content: space-between;
+
+            margin-bottom: 1rem;
+            .title {
+              width: 25%;
+              color: #666;
+              font-size: 15px;
+            }
+            .detail {
+              width: 70%;
+              color: #333;
+              font-size: 15px;
+            }
+          }
+        }
+
+        .notification {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #f3f3f3;
+          padding: 10px;
+          border-radius: 5px;
+          margin-top: 20px;
+
+          p {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
+
+          .ant-btn {
+            height: 38px;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+
+    .description {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      background-color: white;
+      padding: 20px;
+      border-radius: 15px;
+
+      .left {
+        width: 57%;
+
+        .detail {
+          color: #a1a5b7;
+        }
+        .row-info {
+          width: 100%;
+          margin-bottom: 20px;
+          background-color: #f0f2f5;
+          padding: 5px 6px;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          font-size: 12px;
+        }
+      }
+      .right {
+        width: 40%;
+
+        .row1 {
+          display: flex;
+          margin-bottom: 10px;
+
+          .icon {
+            width: 17%;
+          }
+          .detail-icon {
+            display: flex;
+            align-items: center;
+            font-size: 15px;
+
+            h4,
+            h5 {
+              margin-bottom: 0;
+            }
+            h5 {
+              color: #26a541;
+            }
+          }
+        }
+      }
+    }
+  }
+}

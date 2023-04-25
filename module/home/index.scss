@@ -1,0 +1,109 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-page-container {
+  width: 100%;
+  margin-bottom: 100px;
+  .introduce {
+    position: relative;
+    .background-image-home {
+      background-image: url("https://cafebiz.cafebizcdn.vn/162123310254002176/2020/7/18/photo-1507842217343-583bb7270b66-15950834286661091221208-15950835397121305942663.jpg");
+      height: 400px;
+      width: 100%;
+      margin-top: 55px;
+      //opacity: 0.5;
+      filter: brightness(50%);
+    }
+
+    .text-introduce-detail {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .text-introduce {
+        color: white;
+        text-align: center;
+        width: 750px;
+        font-family: initial;
+      }
+    }
+  }
+
+  .slider-container {
+    margin-top: 30px;
+    padding: 0 15%;
+
+    .list-slider {
+      .slider {
+        //width: 70%;
+
+        .swiper-slide {
+          width: 170px !important;
+          margin-right: 10px !important;
+
+          .item-slide {
+            width: 170px;
+            padding: 15px;
+
+            .text-title-category,
+            .buy {
+              font-size: 15px;
+              font-weight: 500;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .row3 {
+    width: 100%;
+    margin-top: 30px;
+    padding: 0 15%;
+
+    .title {
+      display: flex;
+      justify-content: center;
+
+      h3 {
+        width: 350px;
+        //background-color:  gray;
+        border-bottom: 2px solid #008bcf;
+      }
+    }
+
+    .desciption {
+      p {
+        text-align: center;
+        margin-top: 5px;
+        font-size: 16px;
+        color: #555;
+      }
+    }
+  }
+}

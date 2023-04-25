@@ -1,0 +1,27 @@
+.address-tab-container {
+  padding: 0 20px;
+
+  .lineHorizoltal {
+    height: 1px;
+    background-color: black;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .icon-edit {
+    font-size: large;
+    color: green;
+    padding: 4px;
+    cursor: pointer;
+  }
+  .icon-delete {
+    font-size: large;
+    color: red;
+    padding: 4px;
+    margin-left: 24px;
+    cursor: pointer;
+  }
+  .text-bold {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}

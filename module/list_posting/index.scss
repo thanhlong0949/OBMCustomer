@@ -1,0 +1,40 @@
+.list_posting_container {
+  width: 100%;
+
+  .post_book {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .list_posting_detail {
+    margin-top: 85px;
+    padding: 0 15%;
+
+    p {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+    h3 {
+      margin-bottom: 2px;
+    }
+
+    .item-posting {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: 2px solid #e6e8ec;
+      border-radius: 10px;
+      padding: 10px;
+
+      .text-item {
+        margin-left: 10px;
+        //display: flex;
+      }
+    }
+    .item-posting:hover {
+      box-shadow: 0 1px 2px -2px rgb(0 0 0 / 16%), 0 3px 6px 0 rgb(0 0 0 / 12%),
+        0 5px 12px 4px rgb(0 0 0 / 9%);
+    }
+  }
+}
